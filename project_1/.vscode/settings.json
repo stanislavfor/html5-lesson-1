@@ -1,0 +1,7 @@
+{
+ "editor.suggest.showValues": false,
+ "editor.suggest.showUsers": false,
+ "editor.suggest.showClasses": false,
+ "editor.suggest.showOperators": false,
+ "editor.suggest.showIcons": false
+}
