@@ -104,7 +104,7 @@ a {
 
 .dignity {
     background: #f5f5f5;
-    padding: 50px 50px 70px 50px;
+    padding: 50px 50px 90px 50px;
     box-sizing: border-box;
 }
 
@@ -129,7 +129,6 @@ a {
     box-sizing: border-box;
     background-position: left 5px;
     padding-left: 40px;
-    margin: 0 0 18px 0;
 }
 
 .dignity-li:last-child {
@@ -148,7 +147,7 @@ a {
 .dignity-desc {
     position: absolute;
     width: 520px;
-    padding-bottom: 16px;
+    padding-bottom: 18px;
     line-height: 1.5;
     font-size: 16px;
     z-index: 2;
@@ -375,7 +374,7 @@ span.price-p {
 .standart {
     background: #445162;
     width: 300px;
-    height: 306px;
+    min-height: 306px;
     padding-bottom: 20px;
     margin-right: 45px;
     border-radius: 5px;
@@ -384,7 +383,7 @@ span.price-p {
 .premium {
     background: #445162;
     width: 300px;
-    height: 404px;
+    min-height: 404px;
     padding-bottom: 20px;
     margin-right: 45px;
     border-radius: 5px;
@@ -393,15 +392,16 @@ span.price-p {
 .lux {
     background: #445162;
     width: 300px;
-    height: 499px;
+    min-height: 499px;
     padding-bottom: 20px;
     border-radius: 5px;
 }
 
 .buy-button {
-    margin: 18px;
+    margin: 18px auto 0 auto;
+    display: block;
     width: 260px;
-    height: 40px;
+    min-height: 40px;
     background: #ffffff;
     border-radius: 5px;
     font-size: 18px;
@@ -551,7 +551,7 @@ textarea:focus {
     display: flex;
 }
 
-.footer-link,
+
 .footer-link-address {
     width: 42px;
     height: 42px;
@@ -559,34 +559,34 @@ textarea:focus {
     display: block;
 }
 
-.footer-link:hover {
+.footer-link-address:hover {
     box-shadow: 0 0 5px rgba(243, 243, 243, 0.7);
     border-radius: 50px;
 }
 
-.footer-link:active {
+.footer-link-address:active {
     box-shadow: 0 0 10px rgba(243, 243, 243, 1);
     border-radius: 50px;
 }
 
-.footer-link:nth-child(1) {
-    background: url("https://i.ibb.co/W5bqHcg/social-link-1.png") no-repeat;
+.footer-icon-1 {
+    background: url("https://i.ibb.co/W5bqHcg/social-link-1.png") no-repeat center center;
 }
 
-.footer-link:nth-child(2) {
-    background: url("https://i.ibb.co/W5bqHcg/social-link-2.png") no-repeat;
+.footer-icon-2 {
+    background: url("https://i.ibb.co/W5bqHcg/social-link-2.png") no-repeat center center;
 }
 
-.footer-link:nth-child(3) {
-    background: url("https://i.ibb.co/W5bqHcg/social-link-3.png") no-repeat;
+.footer-icon-3 {
+    background: url("https://i.ibb.co/W5bqHcg/social-link-3.png") no-repeat center center;
 }
 
-.footer-link:nth-child(4) {
-    background: url("https://i.ibb.co/W5bqHcg/social-link-4.png") no-repeat;
+.footer-icon-4 {
+    background: url("https://i.ibb.co/W5bqHcg/social-link-4.png") no-repeat center center;
 }
 
-.footer-link:nth-child(5) {
-    background: url("https://i.ibb.co/W5bqHcg/social-link-5.png") no-repeat;
+.footer-icon-5 {
+    background: url("https://i.ibb.co/W5bqHcg/social-link-5.png") no-repeat center center;
 }
 
 /* FOOTER*/
